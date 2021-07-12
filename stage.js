@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
-const TEST_URL = 'http://123.57.95.176/health-check'
+const TEST_URL = 'http://hogehoge/health-check'
 
 export let options = {
   // 例２

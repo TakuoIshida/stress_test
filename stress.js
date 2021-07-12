@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { sleep } from 'k6';
 
-const TEST_URL = 'http://123.57.95.176/health-check'
+const TEST_URL = 'http://hogehoge/health-check'
 
 export let options = {
   // 例１：同時接続user数10人,期間30秒でどのくらい反復できるか？計測する。
