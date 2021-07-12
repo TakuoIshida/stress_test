@@ -33,6 +33,8 @@ export let options = {
 
 # 負荷テスト実行
 
+TEST_URLに、負荷テストをかけたいURL・IPを記載します。
+
 ```
 k6 run stress.js
 ```
