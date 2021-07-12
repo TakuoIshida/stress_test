@@ -47,3 +47,7 @@ k6 run --out json=test.json stress.js
 #csv
 k6 run --out csv=csv.json stress.js
 ```
+
+# その他
+POST, PUT, DELETEの負荷テストをしたいとき
+https://future-architect.github.io/articles/20210324/
